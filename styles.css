@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+
+.indextop{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(17, 145, 224);
+    padding: 10px;
+    /* color: aliceblue; */
+}
+
+.logo{
+    border: 2px solid rgb(47, 0, 255);
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    
+}
+
+.navline{
+    width: 10px;
+    height: 100px;
+    background-color: red;
+    cursor: pointer;
+}
+
+
+.navbar ul li {
+    /* display: inline-block; */
+    margin-right: 10px;
+    height: 50px;
+    
+}
+.container{
+    position: relative;
+}
+.navbar{
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    display: none;
+}
+.navbar{
+    border: 0px solid rgb(13, 80, 236);
+    background-color: rgb(86, 192, 249);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+
+.menuline{
+    height: 3px;
+    width: 20px;
+    background-color: red;
+    margin-bottom: 3px;
+}
+#covimg1{
+    background: url(/cover1.webp);
+    height: 250px;
+    width: 100%;
+    
+}
+
+.departments{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    margin-top: 100px;
+    padding: 20px;
+    gap: 15px;
+    /* background-color: rgba(0, 255, 255, 0.187); */
+    /* border-radius: 20px; */
+
+}
+.dept{
+    border: 1px solid wheat;
+     width: 100%; 
+    height: 40vh;
+    border-radius: 5px;
+    
+}
+.dept.neuro{
+    background: url(/neutoimg.jpg);
+    background-size: cover;
+    
+}
+.dept.radiology{
+    background: url(/radiimg.webp);
+    background-size: cover
+}
+.dept.cancer{
+    background-image: url(/cancerimg.avif);
+    background-size: cover;
+}
+.dept.brain{
+     background-image: url(/brainlogo.jpg);
+     background-size: cover;
+}
+.dept.heart{
+    background-image: url(/heartimg.jpg);
+    background-size: cover;
+}
+.dept.physico{
+    background-image: url(/physicoimg.jpg);
+    background-size: cover;
+}
+
+.dept {
+    display: flex;
+    align-items: center;
+     position: relative;
+    
+    
+}
+.dept h3 {
+    position: absolute;
+    top: 180px;
+    left: 72px;
+     text-align: center; 
+    border: 1px solid chocolate;
+    background-color: rgba(0, 51, 255, 0.623);
+    color: whitesmoke;
+    border-radius: 7px;
+    padding: 3px;
+    
+
+
+}
+.dept h3:hover{
+    background-color: red;
+
+}
+
+
+/* end */
+.endcont{
+    
+    background-color: cadetblue;
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+   gap: 20px;
+   
+}
+#Feedback {
+   color: deepskyblue;
+  
+}
+
+#loc{
+    margin-top: 30px;
+}
+
+#loc,#adress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background-color: cadetblue;
+    
+
+}
+.check{
+    background-color: cadetblue;
+}
